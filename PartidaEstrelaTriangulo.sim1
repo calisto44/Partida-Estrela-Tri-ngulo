@@ -1,0 +1,163 @@
+<circuit version="1.1.0-SR1" rev="2005" stepSize="1000000" stepsPS="1000000" NLsteps="100000" reaStep="1000000" animate="0" >
+
+<item itemtype="Subcircuit" CircId="Uno-1" mainComp="false" Show_id="true" Show_Val="false" Pos="-856,-72" rotation="0" hflip="1" vflip="1" label="Uno-1" idLabPos="0,-20" labelrot="0" valLabPos="-16,20" valLabRot="0" Logic_Symbol="false">
+<mainCompProps MainCompId="mega328-109" Frequency="16 MHz" Auto_Load="false" saveEepr="true" MainMcu="true" SerialMon="-1" />
+</item>
+
+<item itemtype="Tunnel" CircId="Tunnel-3" mainComp="false" Show_id="false" Show_Val="false" Pos="-872,24" rotation="0" hflip="1" vflip="1" label="S1" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Name="S1" IsBus="false" />
+
+<item itemtype="Tunnel" CircId="Tunnel-4" mainComp="false" Show_id="false" Show_Val="false" Pos="-872,32" rotation="0" hflip="1" vflip="1" label="S2" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Name="S2" IsBus="false" />
+
+<item itemtype="Tunnel" CircId="Tunnel-5" mainComp="false" Show_id="false" Show_Val="false" Pos="-872,48" rotation="0" hflip="1" vflip="1" label="K2" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Name="K2" IsBus="false" />
+
+<item itemtype="Tunnel" CircId="Tunnel-6" mainComp="false" Show_id="false" Show_Val="false" Pos="-872,40" rotation="0" hflip="1" vflip="1" label="K3" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Name="K3" IsBus="false" />
+
+<item itemtype="Tunnel" CircId="Tunnel-8" mainComp="false" Show_id="false" Show_Val="false" Pos="-872,56" rotation="0" hflip="1" vflip="1" label="K1" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Name="K1" IsBus="false" />
+
+<item itemtype="Push" CircId="Push-9" mainComp="false" Show_id="false" Show_Val="false" Pos="-572,-112" rotation="0" hflip="1" vflip="1" label="Push-9" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Norm_Close="false" Poles="1" />
+
+<item itemtype="Push" CircId="Push-10" mainComp="false" Show_id="false" Show_Val="false" Pos="-572,-76" rotation="0" hflip="1" vflip="1" label="Push-10" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Norm_Close="false" Poles="1" />
+
+<item itemtype="Ground" CircId="Ground-12" mainComp="false" Show_id="false" Show_Val="false" Pos="-604,-48" rotation="0" hflip="1" vflip="1" label="Ground-12" idLabPos="-16,8" labelrot="0" valLabPos="-16,20" valLabRot="0" />
+
+<item itemtype="Tunnel" CircId="Tunnel-14" mainComp="false" Show_id="false" Show_Val="false" Pos="-536,-112" rotation="0" hflip="-1" vflip="1" label="S1" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Name="S1" IsBus="false" />
+
+<item itemtype="Tunnel" CircId="Tunnel-15" mainComp="false" Show_id="false" Show_Val="false" Pos="-536,-76" rotation="0" hflip="-1" vflip="1" label="S2" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Name="S2" IsBus="false" />
+
+<item itemtype="Tunnel" CircId="Tunnel-16" mainComp="false" Show_id="false" Show_Val="false" Pos="-644,124" rotation="0" hflip="1" vflip="1" label="K1" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Name="K_1" IsBus="false" />
+
+<item itemtype="Resistor" CircId="Resistor-18" mainComp="false" ShowProp="Resistance" Show_id="false" Show_Val="true" Pos="-612,124" rotation="0" hflip="1" vflip="1" label="Resistor-18" idLabPos="-16,-24" labelrot="0" valLabPos="-16,6" valLabRot="0" Resistance="4.3 kΩ" />
+
+<item itemtype="BJT" CircId="BJT-19" mainComp="false" Show_id="false" Show_Val="false" Pos="-560,124" rotation="0" hflip="1" vflip="1" label="BJT-19" idLabPos="18,0" labelrot="0" valLabPos="-16,20" valLabRot="0" PNP="false" Gain="100" Vcrit="0.670736 V" />
+
+<item itemtype="Ground" CircId="Ground-20" mainComp="false" Show_id="false" Show_Val="false" Pos="-552,168" rotation="0" hflip="1" vflip="1" label="Ground-20" idLabPos="-16,8" labelrot="0" valLabPos="-16,20" valLabRot="0" />
+
+<item itemtype="RelaySPST" CircId="RelaySPST-24" mainComp="false" Show_id="false" Show_Val="false" Pos="-552,76" rotation="-270" hflip="1" vflip="1" label="RelaySPST-24" idLabPos="-16,8" labelrot="0" valLabPos="-16,6" valLabRot="0" Norm_Close="false" DT="false" Poles="3" IOn="20 mA" IOff="10 mA" Inductance="100 mH" Rcoil="100 Ω" ReaStep="0 ns" />
+
+<item itemtype="Rail" CircId="Rail-25" mainComp="false" ShowProp="Voltage" Show_id="false" Show_Val="true" Pos="-552,24" rotation="90" hflip="1" vflip="1" label="Rail-25" idLabPos="-5,-10" labelrot="-90" valLabPos="-18.4832,6" valLabRot="-90" Voltage="12 V" />
+
+<item itemtype="Diode" CircId="Diode-30" mainComp="false" Show_id="false" Show_Val="false" Pos="-588,72" rotation="-90" hflip="1" vflip="1" label="Diode-30" idLabPos="-16,-24" labelrot="0" valLabPos="-16,6" valLabRot="0" Model="Diode Default" Threshold="0.634767 V" MaxCurrent="1 A" Resistance="0.05 Ω" BrkDownV="0 V" SatCurrent="171.435 nA" EmCoef="2" />
+
+<item itemtype="Tunnel" CircId="Tunnel-45" mainComp="false" Show_id="false" Show_Val="false" Pos="-448,124" rotation="0" hflip="1" vflip="1" label="K_2" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Name="K_2" IsBus="false" />
+
+<item itemtype="Diode" CircId="Diode-46" mainComp="false" Show_id="false" Show_Val="false" Pos="-392,72" rotation="-90" hflip="1" vflip="1" label="Diode-46" idLabPos="-16,-24" labelrot="0" valLabPos="-16,6" valLabRot="0" Model="Diode Default" Threshold="0.634767 V" MaxCurrent="1 A" Resistance="0.05 Ω" BrkDownV="0 V" SatCurrent="171.435 nA" EmCoef="2" />
+
+<item itemtype="Ground" CircId="Ground-47" mainComp="false" Show_id="false" Show_Val="false" Pos="-356,168" rotation="0" hflip="1" vflip="1" label="Ground-47" idLabPos="-16,8" labelrot="0" valLabPos="-16,20" valLabRot="0" />
+
+<item itemtype="RelaySPST" CircId="RelaySPST-48" mainComp="false" Show_id="false" Show_Val="false" Pos="-356,76" rotation="-270" hflip="1" vflip="1" label="RelaySPST-48" idLabPos="-16,8" labelrot="0" valLabPos="-16,6" valLabRot="0" Norm_Close="false" DT="false" Poles="3" IOn="20 mA" IOff="10 mA" Inductance="100 mH" Rcoil="100 Ω" ReaStep="0 ns" />
+
+<item itemtype="Rail" CircId="Rail-49" mainComp="false" ShowProp="Voltage" Show_id="false" Show_Val="true" Pos="-356,24" rotation="90" hflip="1" vflip="1" label="Rail-49" idLabPos="-5,-10" labelrot="-90" valLabPos="-17.5953,6" valLabRot="-90" Voltage="12 V" />
+
+<item itemtype="BJT" CircId="BJT-51" mainComp="false" Show_id="false" Show_Val="false" Pos="-364,124" rotation="0" hflip="1" vflip="1" label="BJT-51" idLabPos="18,0" labelrot="0" valLabPos="-16,20" valLabRot="0" PNP="false" Gain="100" Vcrit="0.670736 V" />
+
+<item itemtype="Resistor" CircId="Resistor-52" mainComp="false" ShowProp="Resistance" Show_id="false" Show_Val="true" Pos="-416,124" rotation="0" hflip="1" vflip="1" label="Resistor-52" idLabPos="-16,-24" labelrot="0" valLabPos="-16,6" valLabRot="0" Resistance="4.3 kΩ" />
+
+<item itemtype="Diode" CircId="Diode-53" mainComp="false" Show_id="false" Show_Val="false" Pos="-196,72" rotation="-90" hflip="1" vflip="1" label="Diode-53" idLabPos="-16,-24" labelrot="0" valLabPos="-16,6" valLabRot="0" Model="Diode Default" Threshold="0.634767 V" MaxCurrent="1 A" Resistance="0.05 Ω" BrkDownV="0 V" SatCurrent="171.435 nA" EmCoef="2" />
+
+<item itemtype="RelaySPST" CircId="RelaySPST-54" mainComp="false" Show_id="false" Show_Val="false" Pos="-160,76" rotation="-270" hflip="1" vflip="1" label="RelaySPST-54" idLabPos="-16,8" labelrot="0" valLabPos="-16,6" valLabRot="0" Norm_Close="false" DT="false" Poles="3" IOn="20 mA" IOff="10 mA" Inductance="100 mH" Rcoil="100 Ω" ReaStep="0 ns" />
+
+<item itemtype="Resistor" CircId="Resistor-56" mainComp="false" ShowProp="Resistance" Show_id="false" Show_Val="true" Pos="-220,124" rotation="0" hflip="1" vflip="1" label="Resistor-56" idLabPos="-16,-24" labelrot="0" valLabPos="-16,6" valLabRot="0" Resistance="4.3 kΩ" />
+
+<item itemtype="Rail" CircId="Rail-57" mainComp="false" ShowProp="Voltage" Show_id="false" Show_Val="true" Pos="-160,20" rotation="90" hflip="1" vflip="1" label="Rail-57" idLabPos="-5,-10" labelrot="-90" valLabPos="-17.5953,6" valLabRot="-90" Voltage="12 V" />
+
+<item itemtype="Ground" CircId="Ground-58" mainComp="false" Show_id="false" Show_Val="false" Pos="-160,168" rotation="0" hflip="1" vflip="1" label="Ground-58" idLabPos="-16,8" labelrot="0" valLabPos="-16,20" valLabRot="0" />
+
+<item itemtype="BJT" CircId="BJT-59" mainComp="false" Show_id="false" Show_Val="false" Pos="-168,124" rotation="0" hflip="1" vflip="1" label="BJT-59" idLabPos="18,0" labelrot="0" valLabPos="-16,20" valLabRot="0" PNP="false" Gain="100" Vcrit="0.670736 V" />
+
+<item itemtype="Tunnel" CircId="Tunnel-61" mainComp="false" Show_id="false" Show_Val="false" Pos="-252,124" rotation="0" hflip="1" vflip="1" label="K_3" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Name="K_3" IsBus="false" />
+
+<item itemtype="Node" CircId="Node-7" mainComp="false" Pos="-872,40" />
+
+<item itemtype="Node" CircId="Node-13" mainComp="false" Pos="-604,-76" />
+
+<item itemtype="Node" CircId="Node-31" mainComp="false" Pos="-552,48" />
+
+<item itemtype="Node" CircId="Node-32" mainComp="false" Pos="-552,100" />
+
+<item itemtype="Node" CircId="Node-44" mainComp="false" Pos="-356,48" />
+
+<item itemtype="Node" CircId="Node-50" mainComp="false" Pos="-356,100" />
+
+<item itemtype="Node" CircId="Node-55" mainComp="false" Pos="-160,48" />
+
+<item itemtype="Node" CircId="Node-60" mainComp="false" Pos="-160,100" />
+
+<item itemtype="Connector" uid="Connector-1" startpinid="Tunnel-3-pin" endpinid="Uno-1-9" pointList="-872,24,-848,24" />
+
+<item itemtype="Connector" uid="Connector-2" startpinid="Tunnel-4-pin" endpinid="Uno-1-10" pointList="-872,32,-848,32" />
+
+<item itemtype="Connector" uid="Connector-8" startpinid="Uno-1-11" endpinid="Node-7-1" pointList="-848,40,-872,40" />
+
+<item itemtype="Connector" uid="Connector-9" startpinid="Tunnel-6-pin" endpinid="Node-7-0" pointList="-872,40,-872,40" />
+
+<item itemtype="Connector" uid="Connector-10" startpinid="Node-7-2" endpinid="Tunnel-6-pin" pointList="-872,40,-872,40" />
+
+<item itemtype="Connector" uid="Connector-11" startpinid="Tunnel-5-pin" endpinid="Uno-1-12" pointList="-872,48,-848,48" />
+
+<item itemtype="Connector" uid="Connector-12" startpinid="Tunnel-8-pin" endpinid="Uno-1-13" pointList="-872,56,-848,56" />
+
+<item itemtype="Connector" uid="Connector-15" startpinid="Push-10-pinP0" endpinid="Node-13-1" pointList="-588,-76,-604,-76" />
+
+<item itemtype="Connector" uid="Connector-16" startpinid="Ground-12-Gnd" endpinid="Node-13-0" pointList="-604,-64,-604,-76" />
+
+<item itemtype="Connector" uid="Connector-17" startpinid="Node-13-2" endpinid="Push-9-pinP0" pointList="-604,-76,-604,-112,-588,-112" />
+
+<item itemtype="Connector" uid="Connector-19" startpinid="Push-9-switch0pinN" endpinid="Tunnel-14-pin" pointList="-556,-112,-536,-112" />
+
+<item itemtype="Connector" uid="Connector-21" startpinid="Push-10-switch0pinN" endpinid="Tunnel-15-pin" pointList="-556,-76,-536,-76" />
+
+<item itemtype="Connector" uid="Connector-24" startpinid="BJT-19-emiter" endpinid="Ground-20-Gnd" pointList="-552,140,-552,152" />
+
+<item itemtype="Connector" uid="Connector-41" startpinid="Diode-30-rPin" endpinid="Node-31-1" pointList="-588,56,-588,48,-552,48" />
+
+<item itemtype="Connector" uid="Connector-42" startpinid="Rail-25-outnod" endpinid="Node-31-0" pointList="-552,40,-552,48" />
+
+<item itemtype="Connector" uid="Connector-43" startpinid="Node-31-2" endpinid="RelaySPST-24-inductor-lPin" pointList="-552,48,-552,60" />
+
+<item itemtype="Connector" uid="Connector-44" startpinid="Diode-30-lPin" endpinid="Node-32-1" pointList="-588,88,-588,100,-552,100" />
+
+<item itemtype="Connector" uid="Connector-45" startpinid="RelaySPST-24-inductor-rPin" endpinid="Node-32-0" pointList="-552,92,-552,100" />
+
+<item itemtype="Connector" uid="Connector-46" startpinid="Node-32-2" endpinid="BJT-19-collector" pointList="-552,100,-552,108" />
+
+<item itemtype="Connector" uid="Connector-47" startpinid="Tunnel-16-pin" endpinid="Resistor-18-lPin" pointList="-644,124,-628,124" />
+
+<item itemtype="Connector" uid="Connector-48" startpinid="Resistor-18-rPin" endpinid="BJT-19-base" pointList="-596,124,-576,124" />
+
+<item itemtype="Connector" uid="Connector-60" startpinid="Diode-46-lPin" endpinid="Node-50-1" pointList="-392,88,-392,100,-356,100" />
+
+<item itemtype="Connector" uid="Connector-61" startpinid="Node-44-2" endpinid="RelaySPST-48-inductor-lPin" pointList="-356,48,-356,60" />
+
+<item itemtype="Connector" uid="Connector-62" startpinid="RelaySPST-48-inductor-rPin" endpinid="Node-50-0" pointList="-356,92,-356,100" />
+
+<item itemtype="Connector" uid="Connector-63" startpinid="Diode-46-rPin" endpinid="Node-44-1" pointList="-392,56,-392,48,-356,48" />
+
+<item itemtype="Connector" uid="Connector-64" startpinid="Node-50-2" endpinid="BJT-51-collector" pointList="-356,100,-356,108" />
+
+<item itemtype="Connector" uid="Connector-65" startpinid="Resistor-52-rPin" endpinid="BJT-51-base" pointList="-400,124,-380,124" />
+
+<item itemtype="Connector" uid="Connector-66" startpinid="Tunnel-45-pin" endpinid="Resistor-52-lPin" pointList="-448,124,-432,124" />
+
+<item itemtype="Connector" uid="Connector-67" startpinid="BJT-51-emiter" endpinid="Ground-47-Gnd" pointList="-356,140,-356,152" />
+
+<item itemtype="Connector" uid="Connector-68" startpinid="Rail-49-outnod" endpinid="Node-44-0" pointList="-356,40,-356,48" />
+
+<item itemtype="Connector" uid="Connector-69" startpinid="Node-60-2" endpinid="BJT-59-collector" pointList="-160,100,-160,108" />
+
+<item itemtype="Connector" uid="Connector-70" startpinid="Diode-53-rPin" endpinid="Node-55-1" pointList="-196,56,-196,48,-160,48" />
+
+<item itemtype="Connector" uid="Connector-71" startpinid="Tunnel-61-pin" endpinid="Resistor-56-lPin" pointList="-252,124,-236,124" />
+
+<item itemtype="Connector" uid="Connector-72" startpinid="Node-55-2" endpinid="RelaySPST-54-inductor-lPin" pointList="-160,48,-160,60" />
+
+<item itemtype="Connector" uid="Connector-73" startpinid="Resistor-56-rPin" endpinid="BJT-59-base" pointList="-204,124,-184,124" />
+
+<item itemtype="Connector" uid="Connector-74" startpinid="Rail-57-outnod" endpinid="Node-55-0" pointList="-160,36,-160,48" />
+
+<item itemtype="Connector" uid="Connector-75" startpinid="Diode-53-lPin" endpinid="Node-60-1" pointList="-196,88,-196,100,-160,100" />
+
+<item itemtype="Connector" uid="Connector-76" startpinid="RelaySPST-54-inductor-rPin" endpinid="Node-60-0" pointList="-160,92,-160,100" />
+
+<item itemtype="Connector" uid="Connector-77" startpinid="BJT-59-emiter" endpinid="Ground-58-Gnd" pointList="-160,140,-160,152" />
+
+</circuit>

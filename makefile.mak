@@ -1,6 +1,6 @@
-COM=COM5
+COM=COM3
 BAUDRATE=115200
-PROJECT=Partida-Estrela-Tri-ngulo
+PROJECT=PartidaEstrelaTriangulo
 DEVICE=ATmega328P
 
 CC_PATH="C:\Program Files\Microchip\xc8\v2.45\bin"
